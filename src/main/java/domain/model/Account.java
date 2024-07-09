@@ -20,7 +20,7 @@ public class Account {
 
     private String agency;
 
-    @Column(scale = 13, precision = 2)
+    @Column(precision = 13, scale = 2)
     private BigDecimal balance;
 
     // limit pode ser uma palavra reservada em alguns BD, por isso colocamos o name

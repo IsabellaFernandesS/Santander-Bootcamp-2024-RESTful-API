@@ -19,7 +19,7 @@ public class Card {
 
     // limit pode ser uma palavra reservada em alguns BD, por isso colocamos name =
     // "available_limit"
-    @Column(name = "available_limit", scale = 13, precision = 2)
+    @Column(name = "available_limit", precision = 13, scale = 2)
     private BigDecimal limit;
 
     public Long getId() {
